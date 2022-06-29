@@ -15,3 +15,9 @@ let novaTarefa = `Regar plantas`
 alert(`Sua nova tarefa é: ${novaTarefa}`)
 
 tarefas.push(novaTarefa)
+
+console.log(tarefas)
+
+for(i = 0; i < tarefas.length; i++) {
+    console.log(`Minha tarefa é ${tarefas[i]}`)
+}
